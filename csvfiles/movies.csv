@@ -1,0 +1,251 @@
+"id","title","release_year","rating","director","runtime"
+1,The Shawshank Redemption,1994,9.3,Frank Darabont,142
+2,The Godfather,1972,9.2,Francis Ford Coppola,175
+3,The Godfather: Part II,1974,9.0,Francis Ford Coppola,202
+4,The Dark Knight,2008,9.0,Christopher Nolan,152
+5,"12 Angry Men",1957,9.0,Sidney Lumet,96
+6,Schindler's List,1993,8.9,Steven Spielberg,195
+7,The Lord of the Rings: The Return of the King,2003,8.9,Peter Jackson,201
+8,Pulp Fiction,1994,8.9,Quentin Tarantino,154
+9,"The Good, the Bad and the Ugly",1966,8.8,Sergio Leone,178
+10,The Lord of the Rings: The Fellowship of the Ring,2001,8.8,Peter Jackson,178
+11,Fight Club,1999,8.8,David Fincher,139
+12,Forrest Gump,1994,8.8,Robert Zemeckis,142
+13,Inception,2010,8.8,Christopher Nolan,148
+14,The Lord of the Rings: The Two Towers,2002,8.7,Peter Jackson,179
+15,Star Wars: Episode V - The Empire Strikes Back,1980,8.7,Irvin Kershner,124
+16,The Matrix,1999,8.7,Lana Wachowski,136
+17,Goodfellas,1990,8.7,Martin Scorsese,146
+18,One Flew Over the Cuckoo's Nest,1975,8.7,Milos Forman,133
+19,Seven Samurai,1954,8.6,Akira Kurosawa,207
+20,Se7en,1995,8.6,David Fincher,127
+21,Life Is Beautiful,1997,8.6,Roberto Benigni,116
+22,City of God,2002,8.6,Fernando Meirelles,130
+23,The Silence of the Lambs,1991,8.6,Jonathan Demme,118
+24,It's a Wonderful Life,1946,8.6,Frank Capra,130
+25,Star Wars: Episode IV - A New Hope,1977,8.6,George Lucas,121
+26,Saving Private Ryan,1998,8.6,Steven Spielberg,169
+27,The Green Mile,1999,8.6,Frank Darabont,189
+28,Spirited Away,2001,8.6,Hayao Miyazaki,125
+29,Interstellar,2014,8.6,Christopher Nolan,169
+30,Parasite,2019,8.6,Bong Joon Ho,132
+31,Léon: The Professional,1994,8.5,Luc Besson,110
+32,Hara-Kiri,1962,8.6,Masaki Kobayashi,133
+33,The Usual Suspects,1995,8.5,Bryan Singer,106
+34,The Lion King,1994,8.5,Roger Allers,88
+35,The Pianist,2002,8.5,Roman Polanski,150
+36,Terminator 2: Judgment Day,1991,8.5,James Cameron,137
+37,Back to the Future,1985,8.5,Robert Zemeckis,116
+38,American History X,1998,8.5,Tony Kaye,119
+39,Modern Times,1936,8.5,Charles Chaplin,87
+40,Gladiator,2000,8.5,Ridley Scott,155
+41,Psycho,1960,8.5,Alfred Hitchcock,109
+42,The Departed,2006,8.5,Martin Scorsese,151
+43,City Lights,1931,8.5,Charles Chaplin,87
+44,The Intouchables,2011,8.5,Olivier Nakache,112
+45,Whiplash,2014,8.5,Damien Chazelle,106
+46,Grave of the Fireflies,1988,8.5,Isao Takahata,89
+47,The Prestige,2006,8.5,Christopher Nolan,130
+48,Once Upon a Time in the West,1968,8.5,Sergio Leone,165
+49,Casablanca,1942,8.5,Michael Curtiz,102
+50,Cinema Paradiso,1988,8.5,Giuseppe Tornatore,155
+51,Rear Window,1954,8.4,Alfred Hitchcock,112
+52,Alien,1979,8.4,Ridley Scott,117
+53,Apocalypse Now,1979,8.4,Francis Ford Coppola,147
+54,Memento,2000,8.4,Christopher Nolan,113
+55,The Great Dictator,1940,8.4,Charles Chaplin,125
+56,Indiana Jones and the Raiders of the Lost Ark,1981,8.4,Steven Spielberg,115
+57,Django Unchained,2012,8.4,Quentin Tarantino,165
+58,The Lives of Others,2006,8.4,Florian Henckel von Donnersmarck,137
+59,Hamilton,2020,8.5,Thomas Kail,160
+60,Paths of Glory,1957,8.4,Stanley Kubrick,88
+61,WALL·E,2008,8.4,Andrew Stanton,98
+62,Joker,2019,8.4,Todd Phillips,122
+63,The Shining,1980,8.4,Stanley Kubrick,146
+64,Avengers: Infinity War,2018,8.4,Anthony Russo,149
+65,Sunset Blvd.,1950,8.4,Billy Wilder,110
+66,Witness for the Prosecution,1957,8.4,Billy Wilder,116
+67,Oldboy,2003,8.4,Chan-wook Park,120
+68,Spider-Man: Into the Spider-Verse,2018,8.4,Bob Persichetti,117
+69,Princess Mononoke,1997,8.4,Hayao Miyazaki,134
+70,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,8.4,Stanley Kubrick,95
+71,The Dark Knight Rises,2012,8.4,Christopher Nolan,164
+72,Once Upon a Time in America,1984,8.4,Sergio Leone,229
+73,Your Name.,2016,8.4,Makoto Shinkai,106
+74,Aliens,1986,8.3,James Cameron,137
+75,Coco,2017,8.4,Lee Unkrich,105
+76,Avengers: Endgame,2019,8.4,Anthony Russo,181
+77,Capernaum,2018,8.4,Nadine Labaki,126
+78,American Beauty,1999,8.3,Sam Mendes,122
+79,Braveheart,1995,8.3,Mel Gibson,178
+80,High and Low,1963,8.4,Akira Kurosawa,143
+81,Das Boot,1981,8.3,Wolfgang Petersen,149
+82,Toy Story,1995,8.3,John Lasseter,81
+83,"3 Idiots",2009,8.4,Rajkumar Hirani,170
+84,Amadeus,1984,8.3,Milos Forman,160
+85,Inglourious Basterds,2009,8.3,Quentin Tarantino,153
+86,Good Will Hunting,1997,8.3,Gus Van Sant,126
+87,Star Wars: Episode VI - Return of the Jedi,1983,8.3,Richard Marquand,131
+88,Like Stars on Earth,2007,8.4,Aamir Khan,165
+89,Reservoir Dogs,1992,8.3,Quentin Tarantino,99
+90,"2001: A Space Odyssey",1968,8.3,Stanley Kubrick,149
+91,Requiem for a Dream,2000,8.3,Darren Aronofsky,102
+92,The Hunt,2012,8.3,Thomas Vinterberg,115
+93,Vertigo,1958,8.3,Alfred Hitchcock,128
+94,M,1931,8.3,Fritz Lang,99
+95,Eternal Sunshine of the Spotless Mind,2004,8.3,Michel Gondry,108
+96,Citizen Kane,1941,8.3,Orson Welles,119
+97,Dangal,2016,8.4,Nitesh Tiwari,161
+98,Singin' in the Rain,1952,8.3,Stanley Donen,103
+99,The Kid,1921,8.3,Charles Chaplin,68
+100,Bicycle Thieves,1948,8.3,Vittorio De Sica,89
+101,Full Metal Jacket,1987,8.3,Stanley Kubrick,116
+102,Come and See,1985,8.3,Elem Klimov,142
+103,Snatch,2000,8.3,Guy Ritchie,102
+104,Ikiru,1952,8.3,Akira Kurosawa,143
+105,North by Northwest,1959,8.3,Alfred Hitchcock,136
+106,A Clockwork Orange,1971,8.3,Stanley Kubrick,136
+107,Scarface,1983,8.3,Brian De Palma,170
+108,"1917",2019,8.3,Sam Mendes,119
+109,Taxi Driver,1976,8.2,Martin Scorsese,114
+110,Incendies,2010,8.3,Denis Villeneuve,131
+111,A Separation,2011,8.3,Asghar Farhadi,123
+112,Toy Story 3,2010,8.2,Lee Unkrich,103
+113,The Sting,1973,8.3,George Roy Hill,129
+114,Lawrence of Arabia,1962,8.3,David Lean,228
+115,Amélie,2001,8.3,Jean-Pierre Jeunet,122
+116,Metropolis,1927,8.3,Fritz Lang,153
+117,The Apartment,1960,8.3,Billy Wilder,125
+118,For a Few Dollars More,1965,8.2,Sergio Leone,132
+119,Double Indemnity,1944,8.3,Billy Wilder,107
+120,To Kill a Mockingbird,1962,8.2,Robert Mulligan,129
+121,Up,2009,8.2,Pete Docter,96
+122,Indiana Jones and the Last Crusade,1989,8.2,Steven Spielberg,127
+123,Heat,1995,8.2,Michael Mann,170
+124,L.A. Confidential,1997,8.2,Curtis Hanson,138
+125,Green Book,2018,8.2,Peter Farrelly,130
+126,Die Hard,1988,8.2,John McTiernan,132
+127,Batman Begins,2005,8.2,Christopher Nolan,140
+128,Yojimbo,1961,8.2,Akira Kurosawa,110
+129,Monty Python and the Holy Grail,1975,8.2,Terry Gilliam,91
+130,Rashomon,1950,8.2,Akira Kurosawa,88
+131,Downfall,2004,8.2,Oliver Hirschbiegel,156
+132,Children of Heaven,1997,8.3,Majid Majidi,89
+133,Ran,1985,8.2,Akira Kurosawa,162
+134,Unforgiven,1992,8.2,Clint Eastwood,130
+135,Some Like It Hot,1959,8.2,Billy Wilder,121
+136,Howl's Moving Castle,2004,8.2,Hayao Miyazaki,119
+137,All About Eve,1950,8.2,Joseph L. Mankiewicz,138
+138,Casino,1995,8.2,Martin Scorsese,178
+139,A Beautiful Mind,2001,8.2,Ron Howard,135
+140,The Wolf of Wall Street,2013,8.2,Martin Scorsese,180
+141,The Great Escape,1963,8.2,John Sturges,172
+142,Pan's Labyrinth,2006,8.2,Guillermo del Toro,118
+143,There Will Be Blood,2007,8.2,Paul Thomas Anderson,158
+144,The Secret in Their Eyes,2009,8.2,Juan José Campanella,129
+145,"Lock, Stock and Two Smoking Barrels",1998,8.2,Guy Ritchie,107
+146,Judgment at Nuremberg,1961,8.2,Stanley Kramer,179
+147,Raging Bull,1980,8.2,Martin Scorsese,129
+148,My Neighbor Totoro,1988,8.2,Hayao Miyazaki,86
+149,The Treasure of the Sierra Madre,1948,8.2,John Huston,126
+150,Dial M for Murder,1954,8.2,Alfred Hitchcock,105
+151,Shutter Island,2010,8.2,Martin Scorsese,138
+152,"Three Billboards Outside Ebbing, Missouri",2017,8.1,Martin McDonagh,115
+153,The Gold Rush,1925,8.2,Charles Chaplin,95
+154,Chinatown,1974,8.1,Roman Polanski,130
+155,My Father and My Son,2005,8.3,Çagan Irmak,112
+156,No Country for Old Men,2007,8.1,Ethan Coen,122
+157,V for Vendetta,2005,8.2,James McTeigue,132
+158,Inside Out,2015,8.1,Pete Docter,95
+159,The Thing,1982,8.1,John Carpenter,109
+160,The Elephant Man,1980,8.1,David Lynch,124
+161,The Seventh Seal,1957,8.2,Ingmar Bergman,96
+162,The Sixth Sense,1999,8.1,M. Night Shyamalan,107
+163,Warrior,2011,8.2,Gavin O'Connor,140
+164,Jurassic Park,1993,8.1,Steven Spielberg,127
+165,Klaus,2019,8.2,Sergio Pablos,96
+166,Trainspotting,1996,8.1,Danny Boyle,93
+167,Zack Snyder's Justice League,2021,8.3,Zack Snyder,242
+168,The Truman Show,1998,8.1,Peter Weir,103
+169,Gone with the Wind,1939,8.1,Victor Fleming,238
+170,Finding Nemo,2003,8.1,Andrew Stanton,100
+171,Stalker,1979,8.2,Andrei Tarkovsky,162
+172,Wild Strawberries,1957,8.2,Ingmar Bergman,91
+173,Memories of Murder,2003,8.1,Bong Joon Ho,132
+174,Kill Bill: Vol. 1,2003,8.1,Quentin Tarantino,111
+175,Blade Runner,1982,8.1,Ridley Scott,117
+176,The Bridge on the River Kwai,1957,8.1,David Lean,161
+177,Fargo,1996,8.1,Joel Coen,98
+178,Wild Tales,2014,8.1,Damián Szifron,122
+179,Room,2015,8.1,Lenny Abrahamson,118
+180,Tokyo Story,1953,8.2,Yasujirô Ozu,136
+181,The Third Man,1949,8.1,Carol Reed,93
+182,Gran Torino,2008,8.1,Clint Eastwood,116
+183,On the Waterfront,1954,8.1,Elia Kazan,108
+184,The Deer Hunter,1978,8.1,Michael Cimino,183
+185,In the Name of the Father,1993,8.1,Jim Sheridan,133
+186,Mary and Max,2009,8.1,Adam Elliot,92
+187,Before Sunrise,1995,8.1,Richard Linklater,101
+188,The Grand Budapest Hotel,2014,8.1,Wes Anderson,99
+189,Catch Me If You Can,2002,8.1,Steven Spielberg,141
+190,Gone Girl,2014,8.1,David Fincher,149
+191,Hacksaw Ridge,2016,8.1,Mel Gibson,139
+192,Prisoners,2013,8.1,Denis Villeneuve,153
+193,Persona,1966,8.1,Ingmar Bergman,83
+194,Andhadhun,2018,8.3,Sriram Raghavan,139
+195,Sherlock Jr.,1924,8.2,Buster Keaton,45
+196,The Big Lebowski,1998,8.1,Joel Coen,117
+197,To Be or Not to Be,1942,8.2,Ernst Lubitsch,99
+198,Barry Lyndon,1975,8.1,Stanley Kubrick,185
+199,The General,1926,8.1,Clyde Bruckman,67
+200,How to Train Your Dragon,2010,8.1,Dean DeBlois,98
+201,Ford v Ferrari,2019,8.1,James Mangold,152
+202,"12 Years a Slave",2013,8.1,Steve McQueen,134
+203,The Bandit,1996,8.2,Yavuz Turgul,128
+204,Autumn Sonata,1978,8.2,Ingmar Bergman,99
+205,Mr. Smith Goes to Washington,1939,8.1,Frank Capra,129
+206,Mad Max: Fury Road,2015,8.1,George Miller,120
+207,Anand,1971,8.3,Hrishikesh Mukherjee,122
+208,Dead Poets Society,1989,8.1,Peter Weir,128
+209,Million Dollar Baby,2004,8.1,Clint Eastwood,132
+210,Harry Potter and the Deathly Hallows: Part 2,2011,8.1,David Yates,130
+211,Stand by Me,1986,8.1,Rob Reiner,89
+212,Network,1976,8.1,Sidney Lumet,121
+213,Ben-Hur,1959,8.1,William Wyler,212
+214,Hachi: A Dog's Tale,2009,8.1,Lasse Hallström,93
+215,The Handmaiden,2016,8.1,Chan-wook Park,145
+216,Cool Hand Luke,1967,8.1,Stuart Rosenberg,127
+217,Logan,2017,8.1,James Mangold,137
+218,Platoon,1986,8.1,Oliver Stone,120
+219,The Wages of Fear,1953,8.1,Henri-Georges Clouzot,131
+220,Into the Wild,2007,8.1,Sean Penn,148
+221,Rush,2013,8.1,Ron Howard,123
+222,La Haine,1995,8.1,Mathieu Kassovitz,98
+223,Monty Python's Life of Brian,1979,8.1,Terry Jones,94
+224,The 400 Blows,1959,8.1,François Truffaut,99
+225,The Passion of Joan of Arc,1928,8.1,Carl Theodor Dreyer,114
+226,Spotlight,2015,8.1,Tom McCarthy,129
+227,Raatchasan,2018,8.5,Ram Kumar,170
+228,Hotel Rwanda,2004,8.1,Terry George,121
+229,Gangs of Wasseypur,2012,8.2,Anurag Kashyap,321
+230,Amores Perros,2000,8.1,Alejandro G. Iñárritu,154
+231,Soul,2020,8.1,Pete Docter,100
+232,Andrei Rublev,1966,8.1,Andrei Tarkovsky,205
+233,"Monsters, Inc.",2001,8.1,Pete Docter,92
+234,Rocky,1976,8.1,John G. Avildsen,120
+235,Nausicaä of the Valley of the Wind,1984,8.1,Hayao Miyazaki,117
+236,Rebecca,1940,8.1,Alfred Hitchcock,130
+237,Time of the Gypsies,1988,8.2,Emir Kusturica,142
+238,Before Sunset,2004,8.1,Richard Linklater,80
+239,In the Mood for Love,2000,8.1,Kar-Wai Wong,98
+240,Rififi,1955,8.1,Jules Dassin,118
+241,Rang De Basanti,2006,8.2,Rakeysh Omprakash Mehra,167
+242,"Paris, Texas",1984,8.1,Wim Wenders,145
+243,Drishyam,2013,8.4,Jeethu Joseph,160
+244,Portrait of a Lady on Fire,2019,8.1,Céline Sciamma,122
+245,It Happened One Night,1934,8.1,Frank Capra,105
+246,Neon Genesis Evangelion: The End of Evangelion,1997,8.1,Hideaki Anno,87
+247,"7 Kogustaki Mucize",2019,8.2,Mehmet Ada Öztekin,132
+248,Tangerines,2013,8.2,Zaza Urushadze,87
+249,Drishyam,2015,8.2,Nishikant Kamat,163
+250,Swades,2004,8.2,Ashutosh Gowariker,189
