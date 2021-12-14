@@ -1,0 +1,7 @@
+name: xeus-sql
+channels:
+  - conda-forge
+dependencies:
+  - xeus-sql
+  - soci-sqlite
+  - RISE
