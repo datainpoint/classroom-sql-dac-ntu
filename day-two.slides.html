@@ -15560,7 +15560,7 @@ div.jp-OutputPrompt {
 <th>date_of_today</th>
 </tr>
 <tr>
-<td>2022-11-13</td>
+<td>2022-12-15</td>
 </tr>
 </table>
 1 row in set (0.00 sec)
@@ -15617,7 +15617,7 @@ div.jp-OutputPrompt {
 <th>time_of_now</th>
 </tr>
 <tr>
-<td>20:38:36</td>
+<td>14:22:22</td>
 </tr>
 </table>
 1 row in set (0.00 sec)
@@ -15674,7 +15674,7 @@ div.jp-OutputPrompt {
 <th>date_time_of_now</th>
 </tr>
 <tr>
-<td>2022-11-13 20:38:36</td>
+<td>2022-12-15 14:22:22</td>
 </tr>
 </table>
 1 row in set (0.00 sec)
@@ -15764,12 +15764,12 @@ div.jp-OutputPrompt {
 <th>year_part</th>
 </tr>
 <tr>
-<td>2022-11-13</td>
-<td>13</td>
-<td>317</td>
-<td>11</td>
-<td>0</td>
-<td>45</td>
+<td>2022-12-15</td>
+<td>15</td>
+<td>349</td>
+<td>12</td>
+<td>4</td>
+<td>50</td>
 <td>2022</td>
 </tr>
 </table>
@@ -16120,6 +16120,53 @@ div.jp-OutputPrompt {
 
 </div>
 
+</div></section><section ><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="nf">COUNT</span><span class="p">(</span><span class="k">DISTINCT</span><span class="w"> </span><span class="n">director</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">number_of_directors</span><span class="w"></span>
+<span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">movies</span><span class="p">;</span><span class="w"></span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<table>
+<tr>
+<th>number_of_directors</th>
+</tr>
+<tr>
+<td>157</td>
+</tr>
+</table>
+1 row in set (0.00 sec)
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div></section></section><section ><section >
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -16162,539 +16209,12 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="k">DISTINCT</span><span class="w"> </span><span class="n">director</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">distinct_director</span><span class="w"></span>
 <span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">movies</span><span class="w"></span>
 <span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">director</span><span class="p">;</span><span class="w"></span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<table>
-<tr>
-<th>distinct_director</th>
-</tr>
-<tr>
-<td>Aamir Khan</td>
-</tr>
-<tr>
-<td>Adam Elliot</td>
-</tr>
-<tr>
-<td>Akira Kurosawa</td>
-</tr>
-<tr>
-<td>Alejandro G. Iñárritu</td>
-</tr>
-<tr>
-<td>Alfred Hitchcock</td>
-</tr>
-<tr>
-<td>Andrei Tarkovsky</td>
-</tr>
-<tr>
-<td>Andrew Stanton</td>
-</tr>
-<tr>
-<td>Anthony Russo</td>
-</tr>
-<tr>
-<td>Anurag Kashyap</td>
-</tr>
-<tr>
-<td>Asghar Farhadi</td>
-</tr>
-<tr>
-<td>Ashutosh Gowariker</td>
-</tr>
-<tr>
-<td>Billy Wilder</td>
-</tr>
-<tr>
-<td>Bob Persichetti</td>
-</tr>
-<tr>
-<td>Bong Joon Ho</td>
-</tr>
-<tr>
-<td>Brian De Palma</td>
-</tr>
-<tr>
-<td>Bryan Singer</td>
-</tr>
-<tr>
-<td>Buster Keaton</td>
-</tr>
-<tr>
-<td>Carl Theodor Dreyer</td>
-</tr>
-<tr>
-<td>Carol Reed</td>
-</tr>
-<tr>
-<td>Chan-wook Park</td>
-</tr>
-<tr>
-<td>Charles Chaplin</td>
-</tr>
-<tr>
-<td>Christopher Nolan</td>
-</tr>
-<tr>
-<td>Clint Eastwood</td>
-</tr>
-<tr>
-<td>Clyde Bruckman</td>
-</tr>
-<tr>
-<td>Curtis Hanson</td>
-</tr>
-<tr>
-<td>Céline Sciamma</td>
-</tr>
-<tr>
-<td>Damien Chazelle</td>
-</tr>
-<tr>
-<td>Damián Szifron</td>
-</tr>
-<tr>
-<td>Danny Boyle</td>
-</tr>
-<tr>
-<td>Darren Aronofsky</td>
-</tr>
-<tr>
-<td>David Fincher</td>
-</tr>
-<tr>
-<td>David Lean</td>
-</tr>
-<tr>
-<td>David Lynch</td>
-</tr>
-<tr>
-<td>David Yates</td>
-</tr>
-<tr>
-<td>Dean DeBlois</td>
-</tr>
-<tr>
-<td>Denis Villeneuve</td>
-</tr>
-<tr>
-<td>Elem Klimov</td>
-</tr>
-<tr>
-<td>Elia Kazan</td>
-</tr>
-<tr>
-<td>Emir Kusturica</td>
-</tr>
-<tr>
-<td>Ernst Lubitsch</td>
-</tr>
-<tr>
-<td>Ethan Coen</td>
-</tr>
-<tr>
-<td>Fernando Meirelles</td>
-</tr>
-<tr>
-<td>Florian Henckel von Donnersmarck</td>
-</tr>
-<tr>
-<td>Francis Ford Coppola</td>
-</tr>
-<tr>
-<td>Frank Capra</td>
-</tr>
-<tr>
-<td>Frank Darabont</td>
-</tr>
-<tr>
-<td>François Truffaut</td>
-</tr>
-<tr>
-<td>Fritz Lang</td>
-</tr>
-<tr>
-<td>Gavin O'Connor</td>
-</tr>
-<tr>
-<td>George Lucas</td>
-</tr>
-<tr>
-<td>George Miller</td>
-</tr>
-<tr>
-<td>George Roy Hill</td>
-</tr>
-<tr>
-<td>Giuseppe Tornatore</td>
-</tr>
-<tr>
-<td>Guillermo del Toro</td>
-</tr>
-<tr>
-<td>Gus Van Sant</td>
-</tr>
-<tr>
-<td>Guy Ritchie</td>
-</tr>
-<tr>
-<td>Hayao Miyazaki</td>
-</tr>
-<tr>
-<td>Henri-Georges Clouzot</td>
-</tr>
-<tr>
-<td>Hideaki Anno</td>
-</tr>
-<tr>
-<td>Hrishikesh Mukherjee</td>
-</tr>
-<tr>
-<td>Ingmar Bergman</td>
-</tr>
-<tr>
-<td>Irvin Kershner</td>
-</tr>
-<tr>
-<td>Isao Takahata</td>
-</tr>
-<tr>
-<td>James Cameron</td>
-</tr>
-<tr>
-<td>James Mangold</td>
-</tr>
-<tr>
-<td>James McTeigue</td>
-</tr>
-<tr>
-<td>Jean-Pierre Jeunet</td>
-</tr>
-<tr>
-<td>Jeethu Joseph</td>
-</tr>
-<tr>
-<td>Jim Sheridan</td>
-</tr>
-<tr>
-<td>Joel Coen</td>
-</tr>
-<tr>
-<td>John Carpenter</td>
-</tr>
-<tr>
-<td>John G. Avildsen</td>
-</tr>
-<tr>
-<td>John Huston</td>
-</tr>
-<tr>
-<td>John Lasseter</td>
-</tr>
-<tr>
-<td>John McTiernan</td>
-</tr>
-<tr>
-<td>John Sturges</td>
-</tr>
-<tr>
-<td>Jonathan Demme</td>
-</tr>
-<tr>
-<td>Joseph L. Mankiewicz</td>
-</tr>
-<tr>
-<td>Juan José Campanella</td>
-</tr>
-<tr>
-<td>Jules Dassin</td>
-</tr>
-<tr>
-<td>Kar-Wai Wong</td>
-</tr>
-<tr>
-<td>Lana Wachowski</td>
-</tr>
-<tr>
-<td>Lasse Hallström</td>
-</tr>
-<tr>
-<td>Lee Unkrich</td>
-</tr>
-<tr>
-<td>Lenny Abrahamson</td>
-</tr>
-<tr>
-<td>Luc Besson</td>
-</tr>
-<tr>
-<td>M. Night Shyamalan</td>
-</tr>
-<tr>
-<td>Majid Majidi</td>
-</tr>
-<tr>
-<td>Makoto Shinkai</td>
-</tr>
-<tr>
-<td>Martin McDonagh</td>
-</tr>
-<tr>
-<td>Martin Scorsese</td>
-</tr>
-<tr>
-<td>Masaki Kobayashi</td>
-</tr>
-<tr>
-<td>Mathieu Kassovitz</td>
-</tr>
-<tr>
-<td>Mehmet Ada Öztekin</td>
-</tr>
-<tr>
-<td>Mel Gibson</td>
-</tr>
-<tr>
-<td>Michael Cimino</td>
-</tr>
-<tr>
-<td>Michael Curtiz</td>
-</tr>
-<tr>
-<td>Michael Mann</td>
-</tr>
-<tr>
-<td>Michel Gondry</td>
-</tr>
-<tr>
-<td>Milos Forman</td>
-</tr>
-<tr>
-<td>Nadine Labaki</td>
-</tr>
-<tr>
-<td>Nishikant Kamat</td>
-</tr>
-<tr>
-<td>Nitesh Tiwari</td>
-</tr>
-<tr>
-<td>Oliver Hirschbiegel</td>
-</tr>
-<tr>
-<td>Oliver Stone</td>
-</tr>
-<tr>
-<td>Olivier Nakache</td>
-</tr>
-<tr>
-<td>Orson Welles</td>
-</tr>
-<tr>
-<td>Paul Thomas Anderson</td>
-</tr>
-<tr>
-<td>Pete Docter</td>
-</tr>
-<tr>
-<td>Peter Farrelly</td>
-</tr>
-<tr>
-<td>Peter Jackson</td>
-</tr>
-<tr>
-<td>Peter Weir</td>
-</tr>
-<tr>
-<td>Quentin Tarantino</td>
-</tr>
-<tr>
-<td>Rajkumar Hirani</td>
-</tr>
-<tr>
-<td>Rakeysh Omprakash Mehra</td>
-</tr>
-<tr>
-<td>Ram Kumar</td>
-</tr>
-<tr>
-<td>Richard Linklater</td>
-</tr>
-<tr>
-<td>Richard Marquand</td>
-</tr>
-<tr>
-<td>Ridley Scott</td>
-</tr>
-<tr>
-<td>Rob Reiner</td>
-</tr>
-<tr>
-<td>Robert Mulligan</td>
-</tr>
-<tr>
-<td>Robert Zemeckis</td>
-</tr>
-<tr>
-<td>Roberto Benigni</td>
-</tr>
-<tr>
-<td>Roger Allers</td>
-</tr>
-<tr>
-<td>Roman Polanski</td>
-</tr>
-<tr>
-<td>Ron Howard</td>
-</tr>
-<tr>
-<td>Sam Mendes</td>
-</tr>
-<tr>
-<td>Sean Penn</td>
-</tr>
-<tr>
-<td>Sergio Leone</td>
-</tr>
-<tr>
-<td>Sergio Pablos</td>
-</tr>
-<tr>
-<td>Sidney Lumet</td>
-</tr>
-<tr>
-<td>Sriram Raghavan</td>
-</tr>
-<tr>
-<td>Stanley Donen</td>
-</tr>
-<tr>
-<td>Stanley Kramer</td>
-</tr>
-<tr>
-<td>Stanley Kubrick</td>
-</tr>
-<tr>
-<td>Steve McQueen</td>
-</tr>
-<tr>
-<td>Steven Spielberg</td>
-</tr>
-<tr>
-<td>Stuart Rosenberg</td>
-</tr>
-<tr>
-<td>Terry George</td>
-</tr>
-<tr>
-<td>Terry Gilliam</td>
-</tr>
-<tr>
-<td>Terry Jones</td>
-</tr>
-<tr>
-<td>Thomas Kail</td>
-</tr>
-<tr>
-<td>Thomas Vinterberg</td>
-</tr>
-<tr>
-<td>Todd Phillips</td>
-</tr>
-<tr>
-<td>Tom McCarthy</td>
-</tr>
-<tr>
-<td>Tony Kaye</td>
-</tr>
-<tr>
-<td>Victor Fleming</td>
-</tr>
-<tr>
-<td>Vittorio De Sica</td>
-</tr>
-<tr>
-<td>Wes Anderson</td>
-</tr>
-<tr>
-<td>William Wyler</td>
-</tr>
-<tr>
-<td>Wim Wenders</td>
-</tr>
-<tr>
-<td>Wolfgang Petersen</td>
-</tr>
-<tr>
-<td>Yasujirô Ozu</td>
-</tr>
-<tr>
-<td>Yavuz Turgul</td>
-</tr>
-<tr>
-<td>Zack Snyder</td>
-</tr>
-<tr>
-<td>Zaza Urushadze</td>
-</tr>
-<tr>
-<td>Çagan Irmak</td>
-</tr>
-</table>
-157 rows in set (0.00 sec)
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div></section><section >
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="%E4%BD%BF%E7%94%A8%E5%88%86%E7%B5%84-GROUP-BY">&#20351;&#29992;&#20998;&#32068; <code>GROUP BY</code><a class="anchor-link" href="#%E4%BD%BF%E7%94%A8%E5%88%86%E7%B5%84-GROUP-BY">&#182;</a></h2>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">director</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">distinct_director</span><span class="w"></span>
-<span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">movies</span><span class="w"></span>
-<span class="w"> </span><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">director</span><span class="p">;</span><span class="w"></span>
 </pre></div>
 
      </div>
@@ -17207,6 +16727,533 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="%E4%BD%BF%E7%94%A8%E5%88%86%E7%B5%84-GROUP-BY">&#20351;&#29992;&#20998;&#32068; <code>GROUP BY</code><a class="anchor-link" href="#%E4%BD%BF%E7%94%A8%E5%88%86%E7%B5%84-GROUP-BY">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">director</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">distinct_director</span><span class="w"></span>
+<span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">movies</span><span class="w"></span>
+<span class="w"> </span><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">director</span><span class="p">;</span><span class="w"></span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<table>
+<tr>
+<th>distinct_director</th>
+</tr>
+<tr>
+<td>Aamir Khan</td>
+</tr>
+<tr>
+<td>Adam Elliot</td>
+</tr>
+<tr>
+<td>Akira Kurosawa</td>
+</tr>
+<tr>
+<td>Alejandro G. Iñárritu</td>
+</tr>
+<tr>
+<td>Alfred Hitchcock</td>
+</tr>
+<tr>
+<td>Andrei Tarkovsky</td>
+</tr>
+<tr>
+<td>Andrew Stanton</td>
+</tr>
+<tr>
+<td>Anthony Russo</td>
+</tr>
+<tr>
+<td>Anurag Kashyap</td>
+</tr>
+<tr>
+<td>Asghar Farhadi</td>
+</tr>
+<tr>
+<td>Ashutosh Gowariker</td>
+</tr>
+<tr>
+<td>Billy Wilder</td>
+</tr>
+<tr>
+<td>Bob Persichetti</td>
+</tr>
+<tr>
+<td>Bong Joon Ho</td>
+</tr>
+<tr>
+<td>Brian De Palma</td>
+</tr>
+<tr>
+<td>Bryan Singer</td>
+</tr>
+<tr>
+<td>Buster Keaton</td>
+</tr>
+<tr>
+<td>Carl Theodor Dreyer</td>
+</tr>
+<tr>
+<td>Carol Reed</td>
+</tr>
+<tr>
+<td>Chan-wook Park</td>
+</tr>
+<tr>
+<td>Charles Chaplin</td>
+</tr>
+<tr>
+<td>Christopher Nolan</td>
+</tr>
+<tr>
+<td>Clint Eastwood</td>
+</tr>
+<tr>
+<td>Clyde Bruckman</td>
+</tr>
+<tr>
+<td>Curtis Hanson</td>
+</tr>
+<tr>
+<td>Céline Sciamma</td>
+</tr>
+<tr>
+<td>Damien Chazelle</td>
+</tr>
+<tr>
+<td>Damián Szifron</td>
+</tr>
+<tr>
+<td>Danny Boyle</td>
+</tr>
+<tr>
+<td>Darren Aronofsky</td>
+</tr>
+<tr>
+<td>David Fincher</td>
+</tr>
+<tr>
+<td>David Lean</td>
+</tr>
+<tr>
+<td>David Lynch</td>
+</tr>
+<tr>
+<td>David Yates</td>
+</tr>
+<tr>
+<td>Dean DeBlois</td>
+</tr>
+<tr>
+<td>Denis Villeneuve</td>
+</tr>
+<tr>
+<td>Elem Klimov</td>
+</tr>
+<tr>
+<td>Elia Kazan</td>
+</tr>
+<tr>
+<td>Emir Kusturica</td>
+</tr>
+<tr>
+<td>Ernst Lubitsch</td>
+</tr>
+<tr>
+<td>Ethan Coen</td>
+</tr>
+<tr>
+<td>Fernando Meirelles</td>
+</tr>
+<tr>
+<td>Florian Henckel von Donnersmarck</td>
+</tr>
+<tr>
+<td>Francis Ford Coppola</td>
+</tr>
+<tr>
+<td>Frank Capra</td>
+</tr>
+<tr>
+<td>Frank Darabont</td>
+</tr>
+<tr>
+<td>François Truffaut</td>
+</tr>
+<tr>
+<td>Fritz Lang</td>
+</tr>
+<tr>
+<td>Gavin O'Connor</td>
+</tr>
+<tr>
+<td>George Lucas</td>
+</tr>
+<tr>
+<td>George Miller</td>
+</tr>
+<tr>
+<td>George Roy Hill</td>
+</tr>
+<tr>
+<td>Giuseppe Tornatore</td>
+</tr>
+<tr>
+<td>Guillermo del Toro</td>
+</tr>
+<tr>
+<td>Gus Van Sant</td>
+</tr>
+<tr>
+<td>Guy Ritchie</td>
+</tr>
+<tr>
+<td>Hayao Miyazaki</td>
+</tr>
+<tr>
+<td>Henri-Georges Clouzot</td>
+</tr>
+<tr>
+<td>Hideaki Anno</td>
+</tr>
+<tr>
+<td>Hrishikesh Mukherjee</td>
+</tr>
+<tr>
+<td>Ingmar Bergman</td>
+</tr>
+<tr>
+<td>Irvin Kershner</td>
+</tr>
+<tr>
+<td>Isao Takahata</td>
+</tr>
+<tr>
+<td>James Cameron</td>
+</tr>
+<tr>
+<td>James Mangold</td>
+</tr>
+<tr>
+<td>James McTeigue</td>
+</tr>
+<tr>
+<td>Jean-Pierre Jeunet</td>
+</tr>
+<tr>
+<td>Jeethu Joseph</td>
+</tr>
+<tr>
+<td>Jim Sheridan</td>
+</tr>
+<tr>
+<td>Joel Coen</td>
+</tr>
+<tr>
+<td>John Carpenter</td>
+</tr>
+<tr>
+<td>John G. Avildsen</td>
+</tr>
+<tr>
+<td>John Huston</td>
+</tr>
+<tr>
+<td>John Lasseter</td>
+</tr>
+<tr>
+<td>John McTiernan</td>
+</tr>
+<tr>
+<td>John Sturges</td>
+</tr>
+<tr>
+<td>Jonathan Demme</td>
+</tr>
+<tr>
+<td>Joseph L. Mankiewicz</td>
+</tr>
+<tr>
+<td>Juan José Campanella</td>
+</tr>
+<tr>
+<td>Jules Dassin</td>
+</tr>
+<tr>
+<td>Kar-Wai Wong</td>
+</tr>
+<tr>
+<td>Lana Wachowski</td>
+</tr>
+<tr>
+<td>Lasse Hallström</td>
+</tr>
+<tr>
+<td>Lee Unkrich</td>
+</tr>
+<tr>
+<td>Lenny Abrahamson</td>
+</tr>
+<tr>
+<td>Luc Besson</td>
+</tr>
+<tr>
+<td>M. Night Shyamalan</td>
+</tr>
+<tr>
+<td>Majid Majidi</td>
+</tr>
+<tr>
+<td>Makoto Shinkai</td>
+</tr>
+<tr>
+<td>Martin McDonagh</td>
+</tr>
+<tr>
+<td>Martin Scorsese</td>
+</tr>
+<tr>
+<td>Masaki Kobayashi</td>
+</tr>
+<tr>
+<td>Mathieu Kassovitz</td>
+</tr>
+<tr>
+<td>Mehmet Ada Öztekin</td>
+</tr>
+<tr>
+<td>Mel Gibson</td>
+</tr>
+<tr>
+<td>Michael Cimino</td>
+</tr>
+<tr>
+<td>Michael Curtiz</td>
+</tr>
+<tr>
+<td>Michael Mann</td>
+</tr>
+<tr>
+<td>Michel Gondry</td>
+</tr>
+<tr>
+<td>Milos Forman</td>
+</tr>
+<tr>
+<td>Nadine Labaki</td>
+</tr>
+<tr>
+<td>Nishikant Kamat</td>
+</tr>
+<tr>
+<td>Nitesh Tiwari</td>
+</tr>
+<tr>
+<td>Oliver Hirschbiegel</td>
+</tr>
+<tr>
+<td>Oliver Stone</td>
+</tr>
+<tr>
+<td>Olivier Nakache</td>
+</tr>
+<tr>
+<td>Orson Welles</td>
+</tr>
+<tr>
+<td>Paul Thomas Anderson</td>
+</tr>
+<tr>
+<td>Pete Docter</td>
+</tr>
+<tr>
+<td>Peter Farrelly</td>
+</tr>
+<tr>
+<td>Peter Jackson</td>
+</tr>
+<tr>
+<td>Peter Weir</td>
+</tr>
+<tr>
+<td>Quentin Tarantino</td>
+</tr>
+<tr>
+<td>Rajkumar Hirani</td>
+</tr>
+<tr>
+<td>Rakeysh Omprakash Mehra</td>
+</tr>
+<tr>
+<td>Ram Kumar</td>
+</tr>
+<tr>
+<td>Richard Linklater</td>
+</tr>
+<tr>
+<td>Richard Marquand</td>
+</tr>
+<tr>
+<td>Ridley Scott</td>
+</tr>
+<tr>
+<td>Rob Reiner</td>
+</tr>
+<tr>
+<td>Robert Mulligan</td>
+</tr>
+<tr>
+<td>Robert Zemeckis</td>
+</tr>
+<tr>
+<td>Roberto Benigni</td>
+</tr>
+<tr>
+<td>Roger Allers</td>
+</tr>
+<tr>
+<td>Roman Polanski</td>
+</tr>
+<tr>
+<td>Ron Howard</td>
+</tr>
+<tr>
+<td>Sam Mendes</td>
+</tr>
+<tr>
+<td>Sean Penn</td>
+</tr>
+<tr>
+<td>Sergio Leone</td>
+</tr>
+<tr>
+<td>Sergio Pablos</td>
+</tr>
+<tr>
+<td>Sidney Lumet</td>
+</tr>
+<tr>
+<td>Sriram Raghavan</td>
+</tr>
+<tr>
+<td>Stanley Donen</td>
+</tr>
+<tr>
+<td>Stanley Kramer</td>
+</tr>
+<tr>
+<td>Stanley Kubrick</td>
+</tr>
+<tr>
+<td>Steve McQueen</td>
+</tr>
+<tr>
+<td>Steven Spielberg</td>
+</tr>
+<tr>
+<td>Stuart Rosenberg</td>
+</tr>
+<tr>
+<td>Terry George</td>
+</tr>
+<tr>
+<td>Terry Gilliam</td>
+</tr>
+<tr>
+<td>Terry Jones</td>
+</tr>
+<tr>
+<td>Thomas Kail</td>
+</tr>
+<tr>
+<td>Thomas Vinterberg</td>
+</tr>
+<tr>
+<td>Todd Phillips</td>
+</tr>
+<tr>
+<td>Tom McCarthy</td>
+</tr>
+<tr>
+<td>Tony Kaye</td>
+</tr>
+<tr>
+<td>Victor Fleming</td>
+</tr>
+<tr>
+<td>Vittorio De Sica</td>
+</tr>
+<tr>
+<td>Wes Anderson</td>
+</tr>
+<tr>
+<td>William Wyler</td>
+</tr>
+<tr>
+<td>Wim Wenders</td>
+</tr>
+<tr>
+<td>Wolfgang Petersen</td>
+</tr>
+<tr>
+<td>Yasujirô Ozu</td>
+</tr>
+<tr>
+<td>Yavuz Turgul</td>
+</tr>
+<tr>
+<td>Zack Snyder</td>
+</tr>
+<tr>
+<td>Zaza Urushadze</td>
+</tr>
+<tr>
+<td>Çagan Irmak</td>
+</tr>
+</table>
+157 rows in set (0.00 sec)
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div></section><section >
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="%E5%9C%A8%E3%80%8C%E5%87%BD%E6%95%B8%E3%80%8D%E7%9A%84%E7%AB%A0%E7%AF%80%EF%BC%8C%E6%88%91%E5%80%91%E4%BB%8B%E7%B4%B9%E9%81%8E%E4%B8%80%E7%A8%AE%E3%80%8C%E7%94%A8%E4%BE%86%E5%BD%99%E7%B8%BD%E8%B3%87%E8%A8%8A%E3%80%8D%E7%9A%84%E5%87%BD%E6%95%B8%EF%BC%8C%E7%A8%B1%E7%82%BA%E8%81%9A%E5%90%88%E5%87%BD%E6%95%B8%EF%BC%88Aggregate-functions%EF%BC%89">&#22312;&#12300;&#20989;&#25976;&#12301;&#30340;&#31456;&#31680;&#65292;&#25105;&#20497;&#20171;&#32057;&#36942;&#19968;&#31278;&#12300;&#29992;&#20358;&#24409;&#32317;&#36039;&#35338;&#12301;&#30340;&#20989;&#25976;&#65292;&#31281;&#28858;&#32858;&#21512;&#20989;&#25976;&#65288;Aggregate functions&#65289;<a class="anchor-link" href="#%E5%9C%A8%E3%80%8C%E5%87%BD%E6%95%B8%E3%80%8D%E7%9A%84%E7%AB%A0%E7%AF%80%EF%BC%8C%E6%88%91%E5%80%91%E4%BB%8B%E7%B4%B9%E9%81%8E%E4%B8%80%E7%A8%AE%E3%80%8C%E7%94%A8%E4%BE%86%E5%BD%99%E7%B8%BD%E8%B3%87%E8%A8%8A%E3%80%8D%E7%9A%84%E5%87%BD%E6%95%B8%EF%BC%8C%E7%A8%B1%E7%82%BA%E8%81%9A%E5%90%88%E5%87%BD%E6%95%B8%EF%BC%88Aggregate-functions%EF%BC%89">&#182;</a></h2><p>單獨使用聚合函數的時候，是將一整欄變數的資訊彙總後輸出。</p>
 
 </div>
@@ -17217,7 +17264,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="k">AVG</span><span class="p">(</span><span class="n">rating</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">avg_rating</span><span class="w">  </span><span class="c1">-- 所有電影的平均評等</span><span class="w"></span>
@@ -17237,7 +17284,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
 
 
 
@@ -17279,7 +17326,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="k">DISTINCT</span><span class="w"> </span><span class="n">release_year</span><span class="w"> </span><span class="o">--</span><span class="n">先知道有哪些上映年份</span><span class="w"></span>
@@ -17299,7 +17346,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
 
 
 
@@ -17589,7 +17636,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="nf">COUNT</span><span class="p">(</span><span class="k">DISTINCT</span><span class="w"> </span><span class="n">release_year</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">number_of_dist_release_year</span><span class="w"></span>
@@ -17609,7 +17656,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
 
 
 
@@ -17652,7 +17699,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">release_year</span><span class="p">,</span><span class="w"></span>
@@ -17674,7 +17721,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
 
 
 
@@ -18070,7 +18117,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">release_year</span><span class="p">,</span><span class="w"></span>
@@ -18093,7 +18140,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[28]:</div>
 
 
 
@@ -18170,7 +18217,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span>
@@ -18189,7 +18236,131 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[28]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<table>
+<tr>
+<th>release_year</th>
+<th>number_of_movies</th>
+</tr>
+<tr>
+<td>1957</td>
+<td>6</td>
+</tr>
+<tr>
+<td>1988</td>
+<td>5</td>
+</tr>
+<tr>
+<td>1994</td>
+<td>5</td>
+</tr>
+<tr>
+<td>1995</td>
+<td>8</td>
+</tr>
+<tr>
+<td>1997</td>
+<td>6</td>
+</tr>
+<tr>
+<td>1998</td>
+<td>5</td>
+</tr>
+<tr>
+<td>1999</td>
+<td>5</td>
+</tr>
+<tr>
+<td>2000</td>
+<td>6</td>
+</tr>
+<tr>
+<td>2001</td>
+<td>5</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>5</td>
+</tr>
+<tr>
+<td>2004</td>
+<td>7</td>
+</tr>
+<tr>
+<td>2006</td>
+<td>5</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>6</td>
+</tr>
+<tr>
+<td>2010</td>
+<td>5</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>6</td>
+</tr>
+<tr>
+<td>2014</td>
+<td>5</td>
+</tr>
+<tr>
+<td>2015</td>
+<td>5</td>
+</tr>
+<tr>
+<td>2018</td>
+<td>6</td>
+</tr>
+<tr>
+<td>2019</td>
+<td>8</td>
+</tr>
+</table>
+19 rows in set (0.00 sec)
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div></section><section ><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">release_year</span><span class="p">,</span><span class="w"></span>
+<span class="w">       </span><span class="nf">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">number_of_movies</span><span class="w"></span>
+<span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">movies</span><span class="w"></span>
+<span class="w"> </span><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">release_year</span><span class="w"></span>
+<span class="k">HAVING</span><span class="w"> </span><span class="n">number_of_movies</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">5</span><span class="w"></span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
 
 
 
@@ -18302,7 +18473,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span>
@@ -18321,7 +18492,59 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[31]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<table>
+<tr>
+<th>title</th>
+<th>n_rows</th>
+</tr>
+<tr>
+<td>Drishyam</td>
+<td>2</td>
+</tr>
+</table>
+1 row in set (0.00 sec)
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div></section><section ><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">title</span><span class="p">,</span><span class="w"></span>
+<span class="w">       </span><span class="nf">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">n_rows</span><span class="w"></span>
+<span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">movies</span><span class="w"></span>
+<span class="w"> </span><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">title</span><span class="w"></span>
+<span class="k">HAVING</span><span class="w"> </span><span class="n">n_rows</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"></span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[32]:</div>
 
 
 
@@ -18373,7 +18596,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="nf">ROUND</span><span class="p">(</span><span class="k">AVG</span><span class="p">(</span><span class="n">rating</span><span class="p">))</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">avg_rating</span><span class="w"> </span>
@@ -18393,7 +18616,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[33]:</div>
 
 
 
@@ -18479,7 +18702,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="nf">MIN</span><span class="p">(</span><span class="n">runtime</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">minimum_runtime</span><span class="w">  </span><span class="c1">-- 先查詢「最短」的片長是幾分鐘。</span><span class="w"></span>
@@ -18499,7 +18722,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[31]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[34]:</div>
 
 
 
@@ -18526,7 +18749,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"></span>
@@ -18547,7 +18770,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[32]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[35]:</div>
 
 
 
@@ -18594,55 +18817,25 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div></section><section ><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div></section><section ><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="nf">MIN</span><span class="p">(</span><span class="n">runtime</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">minimum_runtime</span><span class="w">  </span><span class="c1">-- 先查詢「最短」的片長是幾分鐘。</span><span class="w"></span>
-<span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">movies</span><span class="p">;</span><span class="w"></span>
+<div class=" highlight hl-mysql"><pre><span></span><span class="p">;</span><span class="w"></span>
 
 <span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"></span>
 <span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">movies</span><span class="w"></span>
-<span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">runtime</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">45</span><span class="p">;</span><span class="w">  </span><span class="c1">-- 再依據前一個查詢結果作為篩選條件。</span><span class="w"></span>
+<span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">runtime</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="k">SELECT</span><span class="w"> </span><span class="nf">MIN</span><span class="p">(</span><span class="n">runtime</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">minimum_runtime</span><span class="w">  </span><span class="c1">-- 先查詢「最短」的片長是幾分鐘。</span><span class="w"></span>
+<span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">movies</span><span class="p">);</span><span class="w">  </span><span class="c1">-- 再依據前一個查詢結果作為篩選條件。</span><span class="w"></span>
 </pre></div>
 
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[33]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<table>
-<tr>
-<th>minimum_runtime</th>
-</tr>
-<tr>
-<td>45</td>
-</tr>
-</table>
-1 row in set (0.00 sec)
-</div>
-
-</div>
-
-</div>
-
 </div>
 
 </div></section><section >
@@ -18677,7 +18870,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="nf">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">number_of_movies</span><span class="w"></span>
@@ -18698,7 +18891,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[34]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[37]:</div>
 
 
 
@@ -18725,7 +18918,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="mi">101</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="nf">CAST</span><span class="p">(</span><span class="nf">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="kt">REAL</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">millennium_percentage</span><span class="w">  </span><span class="c1">-- 再依據前一個查詢結果作為計算內容。</span><span class="w"></span>
@@ -18745,7 +18938,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[35]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[38]:</div>
 
 
 
@@ -18781,55 +18974,25 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div></section><section ><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div></section><section ><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="nf">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">number_of_movies</span><span class="w"></span>
-<span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">movies</span><span class="w"></span>
-<span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">release_year</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">2000</span><span class="p">;</span><span class="w">  </span><span class="c1">-- 先查詢在千禧年之後上映的電影有幾部。</span><span class="w"></span>
+<div class=" highlight hl-mysql"><pre><span></span><span class="p">;</span><span class="w">  </span><span class="c1">-- 先查詢在千禧年之後上映的電影有幾部。</span><span class="w"></span>
 
-<span class="k">SELECT</span><span class="w"> </span><span class="mi">101</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="nf">CAST</span><span class="p">(</span><span class="nf">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="kt">REAL</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">millennium_percentage</span><span class="w">  </span><span class="c1">-- 再依據前一個查詢結果作為計算內容。</span><span class="w"></span>
+<span class="k">SELECT</span><span class="w"> </span><span class="p">(</span><span class="k">SELECT</span><span class="w"> </span><span class="nf">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">number_of_movies</span><span class="w"></span>
+<span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">movies</span><span class="w"></span>
+<span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">release_year</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">2000</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="nf">CAST</span><span class="p">(</span><span class="nf">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="kt">REAL</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">millennium_percentage</span><span class="w">  </span><span class="c1">-- 再依據前一個查詢結果作為計算內容。</span><span class="w"></span>
 <span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">movies</span><span class="p">;</span><span class="w"></span>
 </pre></div>
 
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[36]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<table>
-<tr>
-<th>number_of_movies</th>
-</tr>
-<tr>
-<td>101</td>
-</tr>
-</table>
-1 row in set (0.00 sec)
-</div>
-
-</div>
-
-</div>
-
 </div>
 
 </div></section><section >
@@ -18865,7 +19028,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">id</span><span class="w"></span>
@@ -18886,7 +19049,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[37]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[40]:</div>
 
 
 
@@ -18899,7 +19062,7 @@ div.jp-OutputPrompt {
 <td>2865</td>
 </tr>
 </table>
-1 row in set (0.01 sec)
+1 row in set (0.00 sec)
 </div>
 
 </div>
@@ -18913,7 +19076,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">movie_id</span><span class="w"></span>
@@ -18934,7 +19097,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[38]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[41]:</div>
 
 
 
@@ -18962,7 +19125,7 @@ div.jp-OutputPrompt {
 <td>189</td>
 </tr>
 </table>
-6 rows in set (0.01 sec)
+6 rows in set (0.00 sec)
 </div>
 
 </div>
@@ -18976,7 +19139,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"></span>
@@ -18997,7 +19160,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[39]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[42]:</div>
 
 
 
@@ -19084,60 +19247,30 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div></section><section ><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div></section><section ><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">id</span><span class="w"></span>
-<span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">actors</span><span class="w"></span>
-<span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="k">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;Tom Hanks&#39;</span><span class="p">;</span><span class="w">  </span><span class="c1">-- 先從 actors 資料表查詢 Tom Hanks 的演員編號是多少。</span><span class="w"></span>
+<div class=" highlight hl-mysql"><pre><span></span><span class="p">;</span><span class="w">  </span><span class="c1">-- 先從 actors 資料表查詢 Tom Hanks 的演員編號是多少。</span><span class="w"></span>
 <span class="w"> </span>
-<span class="k">SELECT</span><span class="w"> </span><span class="n">movie_id</span><span class="w"></span>
-<span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">casting</span><span class="w"></span>
-<span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">actor_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">2865</span><span class="p">;</span><span class="w">  </span><span class="c1">-- 再依據前一個查詢結果去 casting 資料表查詢。</span><span class="w"></span>
+<span class="p">;</span><span class="w">  </span><span class="c1">-- 再依據前一個查詢結果去 casting 資料表查詢。</span><span class="w"></span>
 <span class="w"> </span>
 <span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"></span>
 <span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">movies</span><span class="w"></span>
-<span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">id</span><span class="w"> </span><span class="k">IN</span><span class="w"> </span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="w"> </span><span class="mi">26</span><span class="p">,</span><span class="w"> </span><span class="mi">27</span><span class="p">,</span><span class="w"> </span><span class="mi">82</span><span class="p">,</span><span class="w"> </span><span class="mi">112</span><span class="p">,</span><span class="w"> </span><span class="mi">189</span><span class="p">);</span><span class="w">  </span><span class="c1">-- 再依據前一個查詢結果去 movies 資料表查詢。</span><span class="w"></span>
+<span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">id</span><span class="w"> </span><span class="k">IN</span><span class="w"> </span><span class="p">(</span><span class="k">SELECT</span><span class="w"> </span><span class="n">movie_id</span><span class="w"></span>
+<span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">casting</span><span class="w"></span>
+<span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">actor_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="k">SELECT</span><span class="w"> </span><span class="n">id</span><span class="w"></span>
+<span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">actors</span><span class="w"></span>
+<span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="k">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;Tom Hanks&#39;</span><span class="p">));</span><span class="w">  </span><span class="c1">-- 再依據前一個查詢結果去 movies 資料表查詢。</span><span class="w"></span>
 </pre></div>
 
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[40]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<table>
-<tr>
-<th>id</th>
-</tr>
-<tr>
-<td>2865</td>
-</tr>
-</table>
-1 row in set (0.00 sec)
-</div>
-
-</div>
-
-</div>
-
 </div>
 
 </div></section><section >
@@ -19159,7 +19292,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[44]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"></span>
@@ -19184,7 +19317,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[41]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[44]:</div>
 
 
 
@@ -19261,7 +19394,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[45]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span>
@@ -19280,7 +19413,73 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[42]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[45]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<table>
+<tr>
+<th>director</th>
+<th>counts</th>
+</tr>
+<tr>
+<td>Christopher Nolan</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Martin Scorsese</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Stanley Kubrick</td>
+<td>7</td>
+</tr>
+</table>
+3 rows in set (0.00 sec)
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div></section><section ><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">director</span><span class="p">,</span><span class="w"></span>
+<span class="w">       </span><span class="n">counts</span><span class="w"></span>
+<span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="p">(</span><span class="k">SELECT</span><span class="w"> </span><span class="n">director</span><span class="p">,</span><span class="w"></span>
+<span class="w">               </span><span class="nf">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">counts</span><span class="w"></span>
+<span class="w">          </span><span class="k">FROM</span><span class="w"> </span><span class="n">movies</span><span class="w"></span>
+<span class="w">         </span><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">director</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">director_counts</span><span class="w"></span>
+<span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">director_counts</span><span class="p">.</span><span class="n">counts</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="k">SELECT</span><span class="w"> </span><span class="nf">MAX</span><span class="p">(</span><span class="n">counts</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">max_counts</span><span class="w"></span>
+<span class="w">                                   </span><span class="k">FROM</span><span class="w"> </span><span class="p">(</span><span class="k">SELECT</span><span class="w"> </span><span class="n">director</span><span class="p">,</span><span class="w"></span>
+<span class="w">                                                </span><span class="nf">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">counts</span><span class="w"></span>
+<span class="w">                                           </span><span class="k">FROM</span><span class="w"> </span><span class="n">movies</span><span class="w"></span>
+<span class="w">                                          </span><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">director</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">director_counts</span><span class="p">);</span><span class="w"></span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[46]:</div>
 
 
 
@@ -19417,12 +19616,12 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[47]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">director</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">my_favorites</span><span class="w"></span>
-<span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">movies</span><span class="w"></span>
-<span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">director</span><span class="w"> </span><span class="k">IN</span><span class="w"> </span><span class="p">(</span><span class="s1">&#39;Christopher Nolan&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Steven Spielberg&#39;</span><span class="p">)</span><span class="w"></span>
+<span class="w">      </span><span class="k">FROM</span><span class="w"> </span><span class="n">movies</span><span class="w"></span>
+<span class="w">     </span><span class="k">WHERE</span><span class="w"> </span><span class="n">director</span><span class="w"> </span><span class="k">IN</span><span class="w"> </span><span class="p">(</span><span class="s1">&#39;Christopher Nolan&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Steven Spielberg&#39;</span><span class="p">)</span><span class="w"></span>
 <span class="w"> </span><span class="k">UNION</span><span class="w"></span>
 <span class="k">SELECT</span><span class="w"> </span><span class="k">name</span><span class="w"></span>
 <span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">actors</span><span class="w"></span>
@@ -19442,7 +19641,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[43]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[47]:</div>
 
 
 
@@ -19545,7 +19744,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[44]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[48]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">director</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">my_favorites</span><span class="w"></span>
@@ -19570,7 +19769,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[44]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[48]:</div>
 
 
 
@@ -19648,7 +19847,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[45]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[49]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">director</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">my_favorites</span><span class="w"></span>
@@ -19674,7 +19873,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[45]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[49]:</div>
 
 
 
@@ -19729,7 +19928,7 @@ div.jp-OutputPrompt {
 <td>Tom Hanks</td>
 </tr>
 </table>
-15 rows in set (0.00 sec)
+15 rows in set (0.01 sec)
 </div>
 
 </div>
@@ -19811,7 +20010,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[50]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">movies</span><span class="p">.</span><span class="n">title</span><span class="p">,</span><span class="w"></span>
@@ -19835,7 +20034,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[46]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[50]:</div>
 
 
 
@@ -19931,7 +20130,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[47]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[51]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">movies</span><span class="p">.</span><span class="n">title</span><span class="p">,</span><span class="w"></span>
@@ -19958,7 +20157,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[47]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[51]:</div>
 
 
 
@@ -20123,7 +20322,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[48]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[52]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">subquery_movies</span><span class="p">.</span><span class="n">title</span><span class="p">,</span><span class="w"></span>
@@ -20156,7 +20355,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[48]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[52]:</div>
 
 
 
@@ -20343,7 +20542,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[49]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[53]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">two_movies</span><span class="p">.</span><span class="n">title</span><span class="p">,</span><span class="w"></span>
@@ -20373,7 +20572,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[49]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[53]:</div>
 
 
 
@@ -20475,7 +20674,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[50]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[54]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">two_movies</span><span class="p">.</span><span class="n">title</span><span class="p">,</span><span class="w"></span>
@@ -20505,7 +20704,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[50]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[54]:</div>
 
 
 
@@ -20606,7 +20805,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[51]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[55]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">two_movies</span><span class="p">.</span><span class="n">title</span><span class="p">,</span><span class="w"></span>
@@ -20636,7 +20835,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[51]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[55]:</div>
 
 
 
@@ -20793,7 +20992,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[52]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[56]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">two_movies</span><span class="p">.</span><span class="n">title</span><span class="p">,</span><span class="w"></span>
@@ -20835,7 +21034,7 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[52]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[56]:</div>
 
 
 
@@ -20996,7 +21195,7 @@ div.jp-OutputPrompt {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[53]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[57]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-mysql"><pre><span></span>
@@ -21015,7 +21214,136 @@ div.jp-OutputPrompt {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[53]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[57]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<table>
+<tr>
+<th>release_year</th>
+<th>title</th>
+<th>name</th>
+<th>is_lead_actor</th>
+</tr>
+<tr>
+<td>1994</td>
+<td>Forrest Gump</td>
+<td>Tom Hanks</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1995</td>
+<td>Toy Story</td>
+<td>Tom Hanks</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1998</td>
+<td>Saving Private Ryan</td>
+<td>Tom Hanks</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1999</td>
+<td>The Green Mile</td>
+<td>Tom Hanks</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2002</td>
+<td>Catch Me If You Can</td>
+<td>Leonardo DiCaprio</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2002</td>
+<td>Catch Me If You Can</td>
+<td>Tom Hanks</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2006</td>
+<td>The Departed</td>
+<td>Leonardo DiCaprio</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2010</td>
+<td>Inception</td>
+<td>Leonardo DiCaprio</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2010</td>
+<td>Toy Story 3</td>
+<td>Tom Hanks</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2010</td>
+<td>Shutter Island</td>
+<td>Leonardo DiCaprio</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2012</td>
+<td>Django Unchained</td>
+<td>Leonardo DiCaprio</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013</td>
+<td>The Wolf of Wall Street</td>
+<td>Leonardo DiCaprio</td>
+<td>1</td>
+</tr>
+</table>
+12 rows in set (0.00 sec)
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div></section><section ><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[58]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-mysql"><pre><span></span><span class="k">SELECT</span><span class="w"> </span><span class="n">movies</span><span class="p">.</span><span class="n">release_year</span><span class="p">,</span><span class="w"></span>
+<span class="w">       </span><span class="n">movies</span><span class="p">.</span><span class="n">title</span><span class="p">,</span><span class="w"></span>
+<span class="w">       </span><span class="n">actors</span><span class="p">.</span><span class="k">name</span><span class="p">,</span><span class="w"></span>
+<span class="w">       </span><span class="k">CASE</span><span class="w"> </span><span class="k">WHEN</span><span class="w"> </span><span class="n">casting</span><span class="p">.</span><span class="n">ord</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="k">THEN</span><span class="w"> </span><span class="mi">1</span><span class="w"></span>
+<span class="w">            </span><span class="k">ELSE</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="k">END</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">is_lead_actor</span><span class="w"></span>
+<span class="w">  </span><span class="k">FROM</span><span class="w"> </span><span class="n">actors</span><span class="w"></span>
+<span class="w">  </span><span class="k">JOIN</span><span class="w"> </span><span class="n">casting</span><span class="w"></span>
+<span class="w">    </span><span class="k">ON</span><span class="w"> </span><span class="n">actors</span><span class="p">.</span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">casting</span><span class="p">.</span><span class="n">actor_id</span><span class="w"></span>
+<span class="w">  </span><span class="k">JOIN</span><span class="w"> </span><span class="n">movies</span><span class="w"></span>
+<span class="w">    </span><span class="k">ON</span><span class="w"> </span><span class="n">casting</span><span class="p">.</span><span class="n">movie_id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">movies</span><span class="p">.</span><span class="n">id</span><span class="w"></span>
+<span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">actors</span><span class="p">.</span><span class="k">name</span><span class="w"> </span><span class="k">IN</span><span class="w"> </span><span class="p">(</span><span class="s1">&#39;Tom Hanks&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Leonardo DiCaprio&#39;</span><span class="p">)</span><span class="w"></span>
+<span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">movies</span><span class="p">.</span><span class="n">release_year</span><span class="p">;</span><span class="w"></span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[58]:</div>
 
 
 
